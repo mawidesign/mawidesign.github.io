@@ -3,8 +3,8 @@
 }
 
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
-	color: #333;
+	background: #black ;
+	
 }
 
 a {
@@ -21,7 +21,7 @@ header, nav, main, footer {
 
 
 /* Header styles */
-header { 
+header {
 	background-color: #000;
 	color: BlanchedAlmond;
 	min-height: 100px;
@@ -37,7 +37,7 @@ header h1 {
 
 /* Nav styles */
 nav { background-color: #333; }
-nav ul { 
+nav ul {
 	display: flex;
 	justify-content: flex-end;
 }
@@ -47,7 +47,7 @@ nav a:hover { color: white; }
 
 
 /* Main styles */
-main { 
+main {
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
@@ -59,7 +59,7 @@ section {
 
 section ul, aside ul {
 	list-style-type: square;
-	margin-top: 20px; 
+	margin-top: 20px;
 	margin-left: 30px;
 	margin-bottom: 40px;
 }
@@ -69,7 +69,7 @@ aside {
 }
 
 /* Footer styles */
-footer { 
+footer {
 	background-color: #000;
 	color: white;
 	text-align: center;
